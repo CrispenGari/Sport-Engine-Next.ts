@@ -1,0 +1,19 @@
+.form {
+  width: 100%;
+  display: flex;
+  max-width: 500px;
+  margin: 20px auto 10px auto;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px lightgray;
+  border-radius: 5px;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+}
+.form input {
+  flex: 1;
+  background-color: #fafafa;
+  padding: 3px 5px;
+  outline: none;
+  border: none;
+}

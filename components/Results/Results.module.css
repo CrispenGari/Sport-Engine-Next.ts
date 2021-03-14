@@ -1,0 +1,18 @@
+.results {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px lightgray;
+  border-radius: 5px;
+  border-bottom: 1px solid lightgray;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 5px auto;
+}
+.results::-webkit-scrollbar {
+  display: none;
+}

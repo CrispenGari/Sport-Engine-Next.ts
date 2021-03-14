@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  user-zoom: none;
+  user-select: none;
+}
+.header h1 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.header h1:hover {
+  cursor: pointer;
+  color: lightseagreen;
+}
+.header h1.header__h1__active {
+  color: lightseagreen;
+}
+.header__icon {
+  font-size: 20px;
+  margin-right: 5px;
+}

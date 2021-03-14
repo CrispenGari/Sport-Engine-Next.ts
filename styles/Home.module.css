@@ -1,0 +1,27 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.home h1.home__result {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px lightgray;
+  border-radius: 5px;
+  border-bottom: 1px solid lightgray;
+  margin: 5px auto;
+  font-weight: 600;
+  font-size: 16px;
+  user-select: none;
+  user-zoom: none;
+}
+.home h1.home__result > span {
+  color: limegreen;
+  margin-right: 5px;
+}
